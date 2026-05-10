@@ -51,8 +51,23 @@ Tools that collect, parse, or analyze Windows Event Logs, ETW, and Sysmon data.
 Tools to validate Windows defenses. Do not use on systems you do not own.
 
 - **Mimikatz** – Credential extraction from Windows memory. `privilege::debug` `sekurlsa::logonpasswords`
+
+
+Rules:
+
+- Tool must be Windows-specific
+- Last commit must be less than 24 months old
+- No paid tools without a free tier
+- No wrappers that add nothing new
+
+Pull requests are reviewed within 7 days. If rejected, you will get a clear reason.
+
+## Why this list exists
+
+General security lists are too broad. Windows-specific lists are outdated. This repo is maintained by people who actually run Windows security.
+
+## License
+
+CC0 – use any part of this list without asking.
 - **Seatbelt** – Host enumeration for security assessments. `Seatbelt.exe -group=system`
 
-## How to add a tool
-
-Open a pull request. Edit this README. Add your tool to the correct category using this format:
