@@ -25,4 +25,4 @@ General security lists are too broad. Windows-specific lists are either outdated
 
 ## License
 
-Creative Commons Zero (CC0) – you can reuse any part of this list without asking.
+MIT license
